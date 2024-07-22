@@ -102,3 +102,7 @@ client.transition_model_version_stage(
     stage="Production"
 )
 ```
+
+
+
+https://mlflow.org/docs/latest/model-registry.html
