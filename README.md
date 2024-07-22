@@ -25,4 +25,5 @@ run MLproject using -
 ```mlflow run . -P filename=data.csv```
 
 # project from github
+do mlflow run on the ssh link of a repo
 ``` mlflow run git@github.com:mlflow/mlflow-example.git ```
