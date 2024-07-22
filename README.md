@@ -25,5 +25,9 @@ run MLproject using -
 ```mlflow run . -P filename=data.csv```
 
 # project from github
-do mlflow run on the ssh link of a repo
+do mlflow run on the ssh link of a repo (need to link instance with ssh key)
 ``` mlflow run git@github.com:mlflow/mlflow-example.git ```
+
+# project by specifying env
+```mlflow run /path/to/conda/project --env-manager virtualenv
+```
